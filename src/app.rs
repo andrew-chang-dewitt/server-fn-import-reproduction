@@ -2,8 +2,8 @@
 // use leptos::*;
 // explicit imports runs into a series of weird errors
 use leptos::{
-    component, create_resource, create_server_action,
-    server_fn::{self, server, ServerFn, ServerFnError},
+    component, create_resource, create_server_action, server,
+    server_fn::{self, ServerFn, ServerFnError},
     view, IntoView, Scope, SignalGet, Suspense, SuspenseProps,
 };
 
